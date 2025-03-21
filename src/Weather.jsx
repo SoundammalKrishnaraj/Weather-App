@@ -1,6 +1,6 @@
 import { useState } from "react"
 import axios from "axios"
-import "/images/background.jpeg"
+import "./background.jpeg"
 
 function Weather() {
 
@@ -27,7 +27,7 @@ function Weather() {
         })
     }
     return (
-        <div className="bg-[url(images/background.jpeg)] bg-cover bg-opacity-100 h-screen w-screen flex items-center justify-center">
+        <div className="bg-[url(./background.jpeg)] bg-cover bg-opacity-100 h-screen w-screen flex items-center justify-center">
             <div className=" text-white text-center ">
                 <h1 className="text-6xl font-bold">Weather Report</h1>
                 <p className="mt-4 mb-4 text-2xl">I can give you a weather report about your city !</p>
